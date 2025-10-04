@@ -1,0 +1,33 @@
+/* App.css */
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Box {
+  display: flex;                  /* 💡 Set layout to horizontal row */
+  justify-content: center;
+  gap: 10px;  
+                      /* space between buttons */
+}
+
+.Square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 200px;
+  height: 200px;
+  font-size: 5rem;
+
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 12px;
+  cursor: pointer;
+}
